@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerControl.CrossCutting\CustomerControl.CrossCutting.csproj" />
+    <ProjectReference Include="..\CustomerControl.Data\CustomerControl.Data.csproj" />
+  </ItemGroup>
+
+</Project>
